@@ -1,0 +1,65 @@
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+/*HOME*/
+body{font-family: 'Sen', sans-serif;}
+
+.navbar{
+    border-bottom: #049099 1px solid;
+}
+.navbar-brand{
+    font-size: 24px;
+    color: #000000 !important;
+}
+
+.nav-link{
+    color: black !important;
+    text-transform: uppercase;
+    transition: color .5s ease !important;
+
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+#headerSection{
+    background: url("../images/andrej-lisakov-3A4XZUopCJA-unsplash.jpg") no-repeat center center fixed !important;
+    background-size: cover !important ;
+    height: 100vh !important ;
+}
+#headerSection .overlay{
+    background:rgba(0, 0, 0, .6);
+}
+#headerSection .row{
+    height: 100vh;
+}
+
+#headerSection span{
+    color: black;
+}
+
+.btn-outline-primary {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 0;
+    cursor: pointer !important;
+    margin-top:15px;
+}
+
+/* FEATURES */
+
+#features .fab{
+    font-size: 50px;
+}
+.feature-top{
+    transition: color .5s ease
+}
+
+.feature-top:hover{
+    color: #049099;
+    cursor: pointer;
+}
+
